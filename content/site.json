@@ -52,11 +52,13 @@
   "shelf": {
     "books": [
       {
-        "title": "The Dream Machine",
-        "author": "M. Mitchell Waldrop",
+        "title": "Chip War",
+        "author": "Chris Miller",
         "take": "now reading.",
-        "isbn": "9781732265110",
-        "pages": 528
+        "spine": "#141414",
+        "isbn": "9781398504127",
+        "coverId": 15244340,
+        "pages": 464
       },
       {
         "title": "On the Shortness of Life",
