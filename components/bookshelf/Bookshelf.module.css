@@ -118,6 +118,10 @@
   margin-top: 12px;
   max-height: calc(var(--h) - 24px);
   writing-mode: vertical-rl;
+  /* Buttons centre their text, which in vertical-rl means halfway down the
+     spine. The 3D spine paints the title from the top (shelf3d.ts
+     paintSpine), so start here too or the titles jump when it takes over. */
+  text-align: start;
   font-family: var(--serif);
   font-weight: 600;
   font-size: var(--spine-font);
